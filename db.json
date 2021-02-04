@@ -2,28 +2,30 @@
 {
     "bg": "https://www.contabilizei.com.br/contabilidade-online/wp-content/uploads/2020/10/nota-fiscal-entrada-calculadora-1280x720.jpg",
     "title": "Quiz Nota Fiscal Eletrônica - NF-e",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "description": "Teste seus conhecimentos sobre Nota Fiscal Eletrônica",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://www.gifsengracados.com.br/wp-content/uploads/2010/11/sedex-brasil.gif",
+        "title": "Qual desses CFOP's pode ser usado para nota de Devolução",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "5411",
+          "5405",
+          "5911",
+          "5949"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://www.contabeis.com.br/assets/img/news/n_41363_2eeb9064f7f5b2569912cbb772a96438.jpg",
+        "title": "Quais dessas finalidades de NF-e não é válida",
+        "description": "Essa é fácil",
+        "answer": 5,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Devolução",
+           "Ajuste",
+           "Complementar",
+           "Remessa"
         ]
       }
     ],
