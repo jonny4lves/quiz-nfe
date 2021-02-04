@@ -9,8 +9,8 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Input from '../src/components/Input';
-import Button from '../src/components/Button'
-import QuizContainer from '../src/components/QuizContainer'
+import Button from '../src/components/Button';
+import QuizContainer from '../src/components/QuizContainer';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -18,7 +18,6 @@ import QuizContainer from '../src/components/QuizContainer'
 //   background-size: cover;
 //   background-position: center;
 // `
-
 
 export default function Home() {
   const router = useRouter();
@@ -45,12 +44,13 @@ export default function Home() {
             }}
             >
               <Input
-                onChange={(event)=> setName(event.target.value)}
-                name= "nomeDoUsuario"
-                value = {name}
-                placeholder="Informe sua Razão Social" />
+                onChange={(event) => setName(event.target.value)}
+                name="nomeDoUsuario"
+                value={name}
+                placeholder="Informe sua Razão Social"
+              />
               <Button type="submit" disabled={name.length === 0}>
-                  {`Emitir NF-e ${name}`}
+                {`Emitir NF-e ${name}`}
               </Button>
             </form>
           </Widget.Content>
