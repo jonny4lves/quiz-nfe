@@ -1,14 +1,14 @@
   
 {
-    "bg": "https://www.contabilizei.com.br/contabilidade-online/wp-content/uploads/2020/10/nota-fiscal-entrada-calculadora-1280x720.jpg",
+    "bg": "https://www.ozai.com.br/wp-content/uploads/2019/04/original-51dd1cfb47e59a7666b2c334132b0cc2.jpg",
     "title": "Quiz Nota Fiscal Eletrônica - NF-e",
     "description": "Teste seus conhecimentos sobre Nota Fiscal Eletrônica",
     "questions": [
       {
-        "image": "https://www.gifsengracados.com.br/wp-content/uploads/2010/11/sedex-brasil.gif",
+        "image": "https://i.ytimg.com/vi/39bPPDZWkE8/maxresdefault.jpg",
         "title": "Qual desses CFOP's pode ser usado para nota de Devolução",
         "description": "Essa é pra aquecer",
-        "answer": 3,
+        "answer": 0,
         "alternatives": [
           "5411",
           "5405",
@@ -20,17 +20,55 @@
         "image": "https://www.contabeis.com.br/assets/img/news/n_41363_2eeb9064f7f5b2569912cbb772a96438.jpg",
         "title": "Quais dessas finalidades de NF-e não é válida",
         "description": "Essa é fácil",
-        "answer": 5,
+        "answer": 3,
         "alternatives": [
            "Devolução",
            "Ajuste",
            "Complementar",
            "Remessa"
         ]
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXNuGTSBDgzxeUvHN1541D97Vj6Z32uLMIQ&usqp=CAU",
+        "title": "O CFOP 5405 deve ser utlizado com qual CSOSN",
+        "description": "Vamos deixar um pouco mais difícil",
+        "answer": 1,
+        "alternatives": [
+           "900 - OUTROS",
+           "500 - COBRADO ANTERIORMENTE POR ST",
+           "300 - IMUNE",
+           "400 - NÃO TRIBUTADO PELO SIMPLES"
+        ]
+      },
+      {
+        "image": "http://prosperatecnologia.com.br/blog/wp-content/uploads/2018/04/ncm.png",
+        "title": "Para que serve o NCM ?",
+        "description": "Vamos falar um pouco sobre NCM agora",
+        "answer": 2,
+        "alternatives": [
+           "Indicar se o produto é tributado",
+           "Indicar se o produto é de revenda ou produção do estabelecimento",
+           "Identificar diversos tipos de produtos",
+           "Determinar o preço do produto"
+        ]
+      },
+      {
+        "image": "https://www.seekinformatica.com.br/wp-content/uploads/2018/01/TABELA-CST-CSOSN--e1517482663241.jpg",
+        "title": "Qual a diferença entre CST e CSOSN",
+        "description": "Para finalizar",
+        "answer": 1,
+        "alternatives": [
+           "CSON é utilizado por empresas do Regime normal e CST por empresas do Simples Nacional",
+           "CST é utilizado por empresas do Regime normal e CSON por empresas do Simples Nacional",
+           "CST é usado para revenda e CSOSN para venda de produção do estabelecimento",
+           "CSON é utilizado para vendas dentro do estado e CST para vendas fora do estado"
+        ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-devsoutinho-git-master.omariosouto.vercel.app",
+      "https://aluraquiz-base.alura-challenges.vercel.app",
+      "https://quiz-spiderman.elciojunior7.vercel.app/"
     ],
     "theme": {
       "colors": {
@@ -42,5 +80,6 @@
         "success": "#4CAF50"
       },
       "borderRadius": "4px"
-    }
+    },
+    "loading":"https://media3.giphy.com/media/xFmuT64Jto3mRO4w3G/giphy.gif"
   }
