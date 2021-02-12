@@ -27,6 +27,7 @@ export default function Home() {
       <Head>
         <title>Quiz NF-e</title>
         <meta property="og:image" content={db.bg} />
+        <link rel="icon" href="https://img.icons8.com/color/452/nota-fiscal-eletronica.png" />
 
       </Head>
       <QuizContainer>
